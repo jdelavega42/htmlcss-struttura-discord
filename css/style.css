@@ -4,8 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* !COMMON */
 
+
+/* !COMMON */
 body {
 
 }
@@ -24,12 +25,13 @@ ul {
 a {
     text-decoration: none;
 }
+
+
 /* !HEADING */
 header {
     padding: 10px;
 }
 header > .goldenrod {
-    background-color: goldenrod;
     margin: 0 auto;
     justify-content: space-between;
 }
@@ -53,10 +55,30 @@ ul.flex {
     width: 20%;
     text-align: end;
 }
-/* debug */
+
+/* heading debug */
 header {
     background-color: lightblue;
 }
 .goldenrod > * {
-    border: var(--debug-border)
+    border: var(--debug-border);
+    background-color: goldenrod;
+}
+
+/* !MAIN */
+section.blue {
+    padding: 30px;
+    justify-content: center;
+    width: 100%;
+}
+/* section blue debug */
+section.blue {
+    background-color: navy;
+}
+div.violet {
+    background-color: violet;
+    width: 50%;
+    min-width: 500px;
+    min-height: 200px;
+    border:  var(--debug-border);
 }
