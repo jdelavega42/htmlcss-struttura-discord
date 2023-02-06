@@ -114,4 +114,9 @@ div.violet {
     height: 500px;
 }
 .
-/*  */
+/* !FOOTER */
+
+/* column section debug */
+footer {
+    background-color: black;
+}
