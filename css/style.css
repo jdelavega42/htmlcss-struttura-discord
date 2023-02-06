@@ -28,6 +28,7 @@ a {
 
 
 /* !HEADING */
+/* *heading */
 header {
     padding: 10px;
 }
@@ -66,11 +67,14 @@ header {
 }
 
 /* !MAIN */
-section.blue {
-    padding: 30px;
+/* *common */
+.bar {
     justify-content: center;
-    width: 100%;
+    padding: 30px;
 }
+
+/* *section blue */
+
 /* section blue debug */
 section.blue {
     background-color: navy;
@@ -79,6 +83,35 @@ div.violet {
     background-color: violet;
     width: 50%;
     min-width: 500px;
-    min-height: 200px;
+    height: 250px;
     border:  var(--debug-border);
 }
+
+/* *alternated section */
+.reverse {
+ flex-direction: row-reverse;
+}
+/* alternated section debug*/
+.box {
+    border: var(--debug-border);
+    height: 300px;
+}
+
+.cadetblue {
+    background-color:cadetblue;
+    width: 60%;
+}
+.pink {
+    background-color: pink;
+    width: 40%;
+}
+
+.grey {
+    background-color: lightgray;
+}
+.green {
+    background-color: green;
+    height: 500px;
+}
+.
+/*  */
