@@ -9,3 +9,54 @@
 body {
 
 }
+:root {
+    --debug-border: 1px dashed black;
+}
+.width {
+    width: 60%;
+}
+ul {
+    list-style-type: none;
+}
+.flex {
+    display: flex;
+}
+a {
+    text-decoration: none;
+}
+/* !HEADING */
+header {
+    padding: 10px;
+}
+header > .goldenrod {
+    background-color: goldenrod;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.goldenrod > * {
+    padding: 5px;
+}
+.goldenrod .logo {
+    min-width: 100px;
+    width: 20%;
+}
+.goldenrod .navigation {
+    min-width: 400px;
+    width: 60%;
+}
+ul.flex {
+    justify-content: center;
+    gap: 5px;
+}
+.goldenrod .login {
+    min-width: 100px;
+    width: 20%;
+    text-align: end;
+}
+/* debug */
+header {
+    background-color: lightblue;
+}
+.goldenrod > * {
+    border: var(--debug-border)
+}
