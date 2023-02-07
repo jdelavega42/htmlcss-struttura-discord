@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="container=device-container, initial-scale=1.0">
     <title>Discord</title>
     <!-- Custom Style -->
     <link rel="stylesheet" href="css/style.css">
@@ -11,52 +11,54 @@
 </head>
 <body>
     <!-- !HEADING -->
-    <header class="skyblue-row flex line">
-        <section class="orange width flex">
-            <div class="dashed logo">logo</div>
-            <nav class="dashed navigation">
-                <ul class="menu flex">
-                    <li><a href="">link</a></li>
-                    <li><a href="">link</a></li>
-                    <li><a href="">link</a></li>
-                    <li><a href="">link</a></li>
-                    <li><a href="">link</a></li>
-                </ul>
-            </nav>
-            <div class="dashed login">login</div>
-        </section>
+    <header>
+        <div class="skyblue-row line flex">
+            <div class="orange container flex">
+                <div class="dashed logo">logo</div>
+                <nav class="dashed navigation">
+                    <ul class="menu flex">
+                        <li><a href="">link</a></li>
+                        <li><a href="">link</a></li>
+                        <li><a href="">link</a></li>
+                        <li><a href="">link</a></li>
+                        <li><a href="">link</a></li>
+                    </ul>
+                </nav>
+                <div class="dashed login">login</div>
+            </div>
+        </div>
+
+        <!-- Section Blue - Jumbotron-->
+        <div class="blue-row line">
+            <div class="dashed small violet"></div>
+        </div>        
     </header>
     <!-- !HEADING -->
 
     <!-- !MAIN -->
     <main>
-        <!-- Section Blue -->
-        <section class="blue-row flex line">
-            <div class="dashed small violet"></div>
-        </section>
-
         <!--  Alternated Section-->
-        <section class="white-row flex line">
-            <div class="width flex">
+        <div class="white-row line">
+            <div class="container flex">
                 <div class="dashed medium blue"></div>
                 <div class="dashed medium pink"></div>
             </div>
-        </section>
-        <section class="grey-row flex line">
-            <div class="width reverse flex">
+        </div>
+        <div class="grey-row line">
+            <div class="container reverse flex">
                 <div class="dashed medium blue"></div>
                 <div class="dashed medium pink"></div>
             </div>
-        </section>
-        <section class="white-row flex line">
-            <div class="width flex">
+        </div>
+        <div class="white-row line">
+            <div class="container flex">
                 <div class="dashed medium blue"></div>
                 <div class="dashed medium pink"></div>
             </div>
-        </section>
-        <section class="grey-row flex line">
-            <div class="dashed big green width"></div>
-        </section>
+        </div>
+        <div class="grey-row line">
+            <div class="dashed big green container"></div>
+        </div>
 
         
     </main>
@@ -65,23 +67,25 @@
     <!-- !FOOTER -->
     <footer class="black-row">
         <!-- Column Section -->
-        <section class="flex line top">
-            <div class="width flex">
+        <div class="top">
+            <div class="container flex">
                 <div class="dashed medium coral"></div>
-                <div class="dashed medium cadetblue"></div> <!-- add: white dashed border -->
-                <div class="dashed medium cadetblue"></div> <!-- add: white dashed border -->
-                <div class="dashed medium cadetblue"></div> <!-- add: white dashed border -->
-                <div class="dashed medium cadetblue"></div> <!-- add: white dashed border -->
+                <div class="cadetblue-column flex">
+                    <div class="dashed medium cadetblue"></div> <!-- add: white dashed border -->
+                    <div class="dashed medium cadetblue"></div> <!-- add: white dashed border -->
+                    <div class="dashed medium cadetblue"></div> <!-- add: white dashed border -->
+                    <div class="dashed medium cadetblue"></div> <!-- add: white dashed border -->
+                </div>
             </div>
-        </section>
+        </div>
 
         <!-- Bottom Section -->
-        <section class="flex line bottom"> <!-- add: border top/bottom -->
-            <div class="aquamarine width flex">
+        <div class="bottom"> <!-- add: border top/bottom -->
+            <div class="aquamarine container flex">
                 <div class="dashed fuchsia left">Logo</div>
                 <div class="dashed fuchsia right">Bottone</div>
             </div>
-        </section>
+        </div>
 
     </footer>
     <!-- !FOOTER -->
